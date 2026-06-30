@@ -1,0 +1,25 @@
+# Test Radar - example configuration
+#
+# Copy this file to:  ~/.testradar/config.properties
+# (Windows: C:\Users\<you>\.testradar\config.properties)
+# then fill in your own values. You can also set everything from the
+# in-app Settings tab, which writes to the same location.
+#
+# This example is safe to commit; the real config.properties is git-ignored.
+
+# --- OpenAI (required for AI features: change analysis & chat) ---
+openai.apiKey=sk-your-openai-api-key-here
+openai.model=gpt-4o-mini
+openai.baseUrl=https://api.openai.com/v1
+
+# --- UI ---
+# One of: FlatLaf Light, FlatLaf Dark, FlatLaf IntelliJ, FlatLaf Darcula,
+#         One Dark, Arc Dark Orange, Nord
+ui.theme=FlatLaf Light
+
+# --- Jira (optional: lets you fetch upcoming changes by issue key) ---
+# Create an API token at:
+# https://id.atlassian.com/manage-profile/security/api-tokens
+jira.baseUrl=https://your-domain.atlassian.net
+jira.email=you@example.com
+jira.apiToken=your-jira-api-token-here

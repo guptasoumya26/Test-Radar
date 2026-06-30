@@ -1,0 +1,26 @@
+# Maven
+target/
+*.class
+dependency-reduced-pom.xml
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+out/
+bin/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs / temp
+*.log
+testradar-repo-*/
+
+# Local app config (may contain API keys / tokens)
+config.properties
+.testradar/
